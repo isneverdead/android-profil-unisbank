@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    android:weightSum="20">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/profilProgdiTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/profilProgdiBtnVisiMisi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingLeft="27dp"
+        android:paddingRight="27dp"
+        android:text="Visi dan Misi" />
+
+    <Button
+        android:id="@+id/profilProgdiBtnDaftarDosen"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:text="Daftar Dosen" />
+
+    <Button
+        android:id="@+id/profilProgdiBtnKompetensi"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Kompetensi" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11" />
+
+    <Button
+        android:id="@+id/profilProgdiBtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="Back" />
+
+</LinearLayout>
